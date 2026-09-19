@@ -51,7 +51,19 @@ jobs:
           python src/update_readme.py
 
       - name: Commit and Push Telemetry Updates
+        env:
+          SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
         run: |
+          # Configure SSH commit signing if secret is set
+          if [ -n "$SIGNING_KEY" ]; then
+            mkdir -p ~/.ssh
+            printf '%s\n' "$SIGNING_KEY" > ~/.ssh/signing_key
+            chmod 600 ~/.ssh/signing_key
+            git config user.signingkey ~/.ssh/signing_key
+            git config gpg.format ssh
+            git config commit.gpgsign true
+          fi
+
           git config user.name "Benjamin Bamisile"
           git config user.email "bambobtim@gmail.com"
 
