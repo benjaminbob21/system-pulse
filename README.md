@@ -6,62 +6,62 @@
 
 > **System Pulse** is an automated dual-engine telemetry dashboard. It monitors 24/7 cloud infrastructure health across Oracle Cloud / APIs and generates daily quantitative market sector momentum & factor scores at market close.
 
-*Last Telemetry Refresh: `2026-09-23 23:53:51 UTC`*
+*Last Telemetry Refresh: `2026-09-24 17:54:55 UTC`*
 
 ---
 
 ## 🛰️ 1. Cloud Infrastructure & Service Health
 
-**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `89.07 ms`
+**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `94.34 ms`
 
 | Monitored Service | Target / Endpoint | Status | Response Time |
 | :--- | :--- | :---: | :---: |
-| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `33.03 ms` *(code: 200)* |
-| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `185.33 ms` *(code: 200)* |
-| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `108.26 ms` *(code: 200)* |
-| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `29.66 ms` *(code: 200)* |
+| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `45.41 ms` *(code: 200)* |
+| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `160.3 ms` *(code: 200)* |
+| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `114.1 ms` *(code: 200)* |
+| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `57.54 ms` *(code: 200)* |
 
 ---
 
 ## 📈 2. Daily Market Pulse & Sector Momentum
 
-**Macro Regime:** `Neutral / Stable` | **VIX Volatility:** `15.18`
+**Macro Regime:** `Neutral / Stable` | **VIX Volatility:** `15.73`
 
 ### 📊 Major Indices
 | Index | Level | 1-Day Change |
 | :--- | :---: | :---: |
-| **S&P 500** (`^GSPC`) | $7,706.03 | 🔴 `-0.76%` |
-| **Nasdaq Composite** (`^IXIC`) | $26,936.04 | 🔴 `-0.69%` |
-| **Dow Jones** (`^DJI`) | $51,511.59 | 🔴 `-1.03%` |
-| **Russell 2000** (`^RUT`) | $2,838.66 | 🔴 `-1.28%` |
-| **CBOE Volatility (VIX)** (`^VIX`) | $15.18 | 🟢 `+2.08%` |
-| **US 10-Year Yield** (`^TNX`) | $5.11 | 🟢 `+3.04%` |
+| **S&P 500** (`^GSPC`) | $7,695.44 | 🔴 `-0.14%` |
+| **Nasdaq Composite** (`^IXIC`) | $26,872.13 | 🔴 `-0.24%` |
+| **Dow Jones** (`^DJI`) | $51,308.14 | 🔴 `-0.39%` |
+| **Russell 2000** (`^RUT`) | $2,828.74 | 🔴 `-0.35%` |
+| **CBOE Volatility (VIX)** (`^VIX`) | $15.73 | 🟢 `+3.62%` |
+| **US 10-Year Yield** (`^TNX`) | $5.15 | 🟢 `+0.78%` |
 
 ### 🏢 Sector Rotation Heatmap
 | Sector | ETF Ticker | 1-Day Change | 1-Month Trend |
 | :--- | :---: | :---: | :---: |
-| **Materials** | `XLB` | 🟢 `+1.15%` | `-5.73%` |
-| **Energy** | `XLE` | 🟢 `+0.96%` | `-0.59%` |
-| **Consumer Staples** | `XLP` | 🟢 `+0.62%` | `-5.12%` |
-| **Technology** | `XLK` | 🟢 `+0.25%` | `+8.62%` |
-| **Industrials** | `XLI` | 🟢 `+0.07%` | `-4.72%` |
-| **Healthcare** | `XLV` | 🔴 `-0.12%` | `-3.01%` |
-| **Financials** | `XLF` | 🔴 `-0.47%` | `-5.99%` |
-| **Consumer Discretionary** | `XLY` | 🔴 `-1.41%` | `-6.26%` |
-| **Real Estate** | `XLRE` | 🔴 `-1.76%` | `-6.92%` |
-| **Utilities** | `XLU` | 🔴 `-2.24%` | `-7.35%` |
+| **Energy** | `XLE` | 🟢 `+0.96%` | `+0.37%` |
+| **Healthcare** | `XLV` | 🟢 `+0.52%` | `-2.51%` |
+| **Real Estate** | `XLRE` | 🟢 `+0.00%` | `-6.92%` |
+| **Financials** | `XLF` | 🔴 `-0.16%` | `-6.14%` |
+| **Consumer Discretionary** | `XLY` | 🔴 `-0.19%` | `-6.44%` |
+| **Consumer Staples** | `XLP` | 🔴 `-0.34%` | `-5.44%` |
+| **Utilities** | `XLU` | 🔴 `-0.42%` | `-7.74%` |
+| **Technology** | `XLK` | 🔴 `-0.62%` | `+7.95%` |
+| **Industrials** | `XLI` | 🔴 `-0.63%` | `-5.32%` |
+| **Materials** | `XLB` | 🔴 `-1.32%` | `-6.97%` |
 
 ### 🎯 Top Momentum & Conviction Factor Rankings
 | Ticker | Price | 1-Day % | RSI (14) | 20-DMA Trend | Conviction Score |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **META** | $744.10 | 🟢 `+1.02%` | `84.59` | Bullish (Above 20-DMA) | **72 / 100** |
-| **TSLA** | $380.12 | 🟢 `+0.32%` | `61.73` | Bullish (Above 20-DMA) | **57 / 100** |
-| **AMD** | $614.61 | 🔴 `-1.47%` | `80.52` | Bullish (Above 20-DMA) | **57 / 100** |
-| **BRK-B** | $507.17 | 🟢 `+1.03%` | `55.24` | Bearish (Below 20-DMA) | **57 / 100** |
-| **MSFT** | $500.59 | 🟢 `+0.52%` | `52.19` | Bullish (Above 20-DMA) | **53 / 100** |
-| **AAPL** | $337.02 | 🔴 `-0.80%` | `62.44` | Bullish (Above 20-DMA) | **52 / 100** |
-| **NVDA** | $225.51 | 🔴 `-1.47%` | `51.46` | Bullish (Above 20-DMA) | **43 / 100** |
-| **LLY** | $1,150.99 | 🔴 `-1.19%` | `46.0` | Bearish (Below 20-DMA) | **42 / 100** |
+| **META** | $769.43 | 🟢 `+3.40%` | `85.1` | Bullish (Above 20-DMA) | **84 / 100** |
+| **LLY** | $1,187.60 | 🟢 `+3.18%` | `59.23` | Bullish (Above 20-DMA) | **70 / 100** |
+| **AMD** | $619.39 | 🟢 `+0.78%` | `81.15` | Bullish (Above 20-DMA) | **69 / 100** |
+| **AAPL** | $337.15 | 🟢 `+0.04%` | `59.86` | Bullish (Above 20-DMA) | **55 / 100** |
+| **GOOGL** | $341.27 | 🟢 `+1.02%` | `49.29` | Bearish (Below 20-DMA) | **54 / 100** |
+| **TSLA** | $379.59 | 🔴 `-0.14%` | `52.02` | Bullish (Above 20-DMA) | **50 / 100** |
+| **BRK-B** | $506.98 | 🔴 `-0.04%` | `52.01` | Bearish (Below 20-DMA) | **50 / 100** |
+| **NVDA** | $223.92 | 🔴 `-0.71%` | `45.13` | Bullish (Above 20-DMA) | **44 / 100** |
 
 ---
 
