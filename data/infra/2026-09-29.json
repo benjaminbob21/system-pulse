@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-09-29T01:11:01.938079+00:00",
-  "formatted_time": "2026-09-29 01:11:01 UTC",
+  "timestamp": "2026-09-29T18:48:16.283907+00:00",
+  "formatted_time": "2026-09-29 18:48:16 UTC",
   "date": "2026-09-29",
   "overall_status": "healthy",
   "uptime_percent": 100.0,
-  "average_latency_ms": 78.72,
+  "average_latency_ms": 27.73,
   "total_services": 4,
   "services_up": 4,
   "services": [
     {
       "status": "up",
-      "latency_ms": 72.34,
+      "latency_ms": 3.74,
       "code": 200,
       "name": "Oracle Always-Free Production Cluster",
       "url": "tcp://cloud-node-01.internal:22"
@@ -20,21 +20,21 @@
       "url": "https://api.github.com/zen",
       "status": "up",
       "code": 200,
-      "latency_ms": 152.25
+      "latency_ms": 11.27
     },
     {
       "name": "SEC EDGAR API Gateway",
       "url": "https://data.sec.gov/submissions/...",
       "status": "up",
       "code": 200,
-      "latency_ms": 67.1
+      "latency_ms": 83.01
     },
     {
       "name": "PyPI Package Registry",
       "url": "https://pypi.org/pypi/requests/json",
       "status": "up",
       "code": 200,
-      "latency_ms": 23.19
+      "latency_ms": 12.9
     }
   ]
 }
