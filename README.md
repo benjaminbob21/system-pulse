@@ -6,20 +6,20 @@
 
 > **System Pulse** is an automated dual-engine telemetry dashboard. It monitors 24/7 cloud infrastructure health across Oracle Cloud / APIs and generates daily quantitative market sector momentum & factor scores at market close.
 
-*Last Telemetry Refresh: `2026-10-03 23:59:11 UTC`*
+*Last Telemetry Refresh: `2026-10-05 00:05:40 UTC`*
 
 ---
 
 ## 🛰️ 1. Cloud Infrastructure & Service Health
 
-**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `68.45 ms`
+**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `76.09 ms`
 
 | Monitored Service | Target / Endpoint | Status | Response Time |
 | :--- | :--- | :---: | :---: |
-| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `26.43 ms` *(code: 200)* |
-| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `99.55 ms` *(code: 200)* |
-| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `107.34 ms` *(code: 200)* |
-| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `40.47 ms` *(code: 200)* |
+| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `26.9 ms` *(code: 200)* |
+| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `93.51 ms` *(code: 200)* |
+| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `126.71 ms` *(code: 200)* |
+| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `57.23 ms` *(code: 200)* |
 
 ---
 
@@ -32,7 +32,7 @@
 | :--- | :---: | :---: |
 | **S&P 500** (`^GSPC`) | $7,722.72 | 🟢 `+0.73%` |
 | **Nasdaq Composite** (`^IXIC`) | $27,190.86 | 🟢 `+1.19%` |
-| **Dow Jones** (`^DJI`) | $0.00 | 🟢 `+0.00%` |
+| **Dow Jones** (`^DJI`) | $51,176.96 | 🟢 `+0.49%` |
 | **Russell 2000** (`^RUT`) | $2,832.90 | 🟢 `+0.94%` |
 | **CBOE Volatility (VIX)** (`^VIX`) | $15.31 | 🔴 `-6.59%` |
 | **US 10-Year Yield** (`^TNX`) | $5.28 | 🟢 `+0.76%` |
