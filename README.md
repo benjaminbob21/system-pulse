@@ -6,20 +6,20 @@
 
 > **System Pulse** is an automated dual-engine telemetry dashboard. It monitors 24/7 cloud infrastructure health across Oracle Cloud / APIs and generates daily quantitative market sector momentum & factor scores at market close.
 
-*Last Telemetry Refresh: `2026-10-10 01:08:35 UTC`*
+*Last Telemetry Refresh: `2026-10-11 00:21:56 UTC`*
 
 ---
 
 ## 🛰️ 1. Cloud Infrastructure & Service Health
 
-**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `59.01 ms`
+**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `20.74 ms`
 
 | Monitored Service | Target / Endpoint | Status | Response Time |
 | :--- | :--- | :---: | :---: |
-| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `65.82 ms` *(code: 200)* |
-| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `56.11 ms` *(code: 200)* |
-| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `82.4 ms` *(code: 200)* |
-| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `31.72 ms` *(code: 200)* |
+| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `3.91 ms` *(code: 200)* |
+| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `12.28 ms` *(code: 200)* |
+| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `33.76 ms` *(code: 200)* |
+| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `33.01 ms` *(code: 200)* |
 
 ---
 
@@ -40,28 +40,28 @@
 ### 🏢 Sector Rotation Heatmap
 | Sector | ETF Ticker | 1-Day Change | 1-Month Trend |
 | :--- | :---: | :---: | :---: |
-| **Energy** | `XLE` | 🟢 `+2.97%` | `+1.07%` |
-| **Consumer Staples** | `XLP` | 🟢 `+2.11%` | `+1.06%` |
-| **Financials** | `XLF` | 🟢 `+0.89%` | `-4.30%` |
-| **Real Estate** | `XLRE` | 🟢 `+0.69%` | `-4.31%` |
-| **Materials** | `XLB` | 🟢 `+0.59%` | `-2.49%` |
-| **Industrials** | `XLI` | 🟢 `+0.33%` | `-1.00%` |
-| **Consumer Discretionary** | `XLY` | 🟢 `+0.31%` | `-0.00%` |
-| **Utilities** | `XLU` | 🔴 `-0.19%` | `-2.70%` |
-| **Healthcare** | `XLV` | 🔴 `-0.39%` | `+1.90%` |
-| **Technology** | `XLK` | 🔴 `-1.79%` | `+6.91%` |
+| **Real Estate** | `XLRE` | 🟢 `+1.86%` | `-2.53%` |
+| **Healthcare** | `XLV` | 🟢 `+1.58%` | `+3.50%` |
+| **Consumer Discretionary** | `XLY` | 🟢 `+1.02%` | `+1.02%` |
+| **Financials** | `XLF` | 🟢 `+0.92%` | `-3.42%` |
+| **Utilities** | `XLU` | 🟢 `+0.83%` | `-1.89%` |
+| **Technology** | `XLK` | 🟢 `+0.51%` | `+7.45%` |
+| **Industrials** | `XLI` | 🟢 `+0.50%` | `-0.50%` |
+| **Materials** | `XLB` | 🟢 `+0.32%` | `-2.17%` |
+| **Consumer Staples** | `XLP` | 🟢 `+0.01%` | `+1.07%` |
+| **Energy** | `XLE` | 🔴 `-0.25%` | `+0.83%` |
 
 ### 🎯 Top Momentum & Conviction Factor Rankings
 | Ticker | Price | 1-Day % | RSI (14) | 20-DMA Trend | Conviction Score |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **AAPL** | $340.42 | 🟢 `+1.11%` | `55.07` | Bullish (Above 20-DMA) | **58 / 100** |
-| **META** | $720.89 | 🔴 `-0.06%` | `60.78` | Bullish (Above 20-DMA) | **55 / 100** |
-| **BRK-B** | $511.05 | 🟢 `+0.95%` | `51.79` | Bullish (Above 20-DMA) | **55 / 100** |
-| **MSFT** | $522.61 | 🔴 `-1.35%` | `70.51` | Bullish (Above 20-DMA) | **53 / 100** |
-| **TSLA** | $375.00 | 🔴 `-0.74%` | `56.87` | Bullish (Above 20-DMA) | **49 / 100** |
-| **GOOGL** | $348.29 | 🔴 `-0.63%` | `48.87` | Bullish (Above 20-DMA) | **46 / 100** |
-| **LLY** | $1,169.60 | 🔴 `-1.61%` | `54.71` | Bullish (Above 20-DMA) | **44 / 100** |
-| **JPM** | $331.42 | 🟢 `+0.56%` | `30.2` | Bearish (Below 20-DMA) | **42 / 100** |
+| **MSFT** | $535.07 | 🟢 `+2.38%` | `72.33` | Bullish (Above 20-DMA) | **73 / 100** |
+| **AMZN** | $262.43 | 🟢 `+3.29%` | `54.61` | Bullish (Above 20-DMA) | **68 / 100** |
+| **BRK-B** | $515.62 | 🟢 `+0.89%` | `70.84` | Bullish (Above 20-DMA) | **64 / 100** |
+| **TSLA** | $382.70 | 🟢 `+2.05%` | `54.95` | Bullish (Above 20-DMA) | **62 / 100** |
+| **LLY** | $1,179.27 | 🟢 `+0.83%` | `54.11` | Bullish (Above 20-DMA) | **56 / 100** |
+| **GOOGL** | $351.66 | 🟢 `+0.97%` | `46.88` | Bullish (Above 20-DMA) | **53 / 100** |
+| **AVGO** | $361.54 | 🟢 `+0.39%` | `49.37` | Bullish (Above 20-DMA) | **51 / 100** |
+| **NVDA** | $229.28 | 🔴 `-0.52%` | `52.82` | Bullish (Above 20-DMA) | **48 / 100** |
 
 ---
 
