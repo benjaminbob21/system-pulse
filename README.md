@@ -1,31 +1,31 @@
 # ⚡ System Pulse
 
 [![Infrastructure Uptime](https://img.shields.io/badge/Infrastructure-100.0%25%20Uptime-brightgreen?style=for-the-badge&logo=oracle)]()
-[![Market Regime](https://img.shields.io/badge/Market%20Regime-Risk-On-blue?style=for-the-badge&logo=tradingview)]()
+[![Market Regime](https://img.shields.io/badge/Market%20Regime-Neutral-blue?style=for-the-badge&logo=tradingview)]()
 [![Automated Sync](https://img.shields.io/badge/Telemetry-Automated%20GitHub%20Actions-purple?style=for-the-badge&logo=githubactions)]()
 
 > **System Pulse** is an automated dual-engine telemetry dashboard. It monitors 24/7 cloud infrastructure health across Oracle Cloud / APIs and generates daily quantitative market sector momentum & factor scores at market close.
 
-*Last Telemetry Refresh: `2026-10-23 23:56:22 UTC`*
+*Last Telemetry Refresh: `2026-10-24 23:33:35 UTC`*
 
 ---
 
 ## 🛰️ 1. Cloud Infrastructure & Service Health
 
-**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `84.28 ms`
+**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `93.33 ms`
 
 | Monitored Service | Target / Endpoint | Status | Response Time |
 | :--- | :--- | :---: | :---: |
-| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `31.72 ms` *(code: 200)* |
-| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `123.15 ms` *(code: 403)* |
-| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `140.68 ms` *(code: 200)* |
-| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `41.55 ms` *(code: 200)* |
+| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `67.08 ms` *(code: 200)* |
+| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `58.65 ms` *(code: 200)* |
+| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `184.79 ms` *(code: 200)* |
+| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `62.82 ms` *(code: 200)* |
 
 ---
 
 ## 📈 2. Daily Market Pulse & Sector Momentum
 
-**Macro Regime:** `Risk-On (Low Volatility)` | **VIX Volatility:** `0.0`
+**Macro Regime:** `Neutral / Stable` | **VIX Volatility:** `19.45`
 
 ### 📊 Major Indices
 | Index | Level | 1-Day Change |
@@ -34,7 +34,7 @@
 | **Nasdaq Composite** (`^IXIC`) | $25,955.34 | 🔴 `-0.21%` |
 | **Dow Jones** (`^DJI`) | $52,215.16 | 🔴 `-1.23%` |
 | **Russell 2000** (`^RUT`) | $2,775.90 | 🔴 `-0.29%` |
-| **CBOE Volatility (VIX)** (`^VIX`) | $0.00 | 🟢 `+0.00%` |
+| **CBOE Volatility (VIX)** (`^VIX`) | $19.45 | 🟢 `+2.21%` |
 | **US 10-Year Yield** (`^TNX`) | $4.99 | 🟢 `+0.71%` |
 
 ### 🏢 Sector Rotation Heatmap
@@ -55,7 +55,7 @@
 | Ticker | Price | 1-Day % | RSI (14) | 20-DMA Trend | Conviction Score |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **BRK-B** | $542.19 | 🔴 `-0.87%` | `87.56` | Bullish (Above 20-DMA) | **64 / 100** |
-| **AAPL** | $347.73 | 🔴 `-0.14%` | `72.33` | Bullish (Above 20-DMA) | **60 / 100** |
+| **AAPL** | $347.73 | 🔴 `-0.14%` | `72.34` | Bullish (Above 20-DMA) | **60 / 100** |
 | **MSFT** | $524.51 | 🟢 `+0.66%` | `49.59` | Bearish (Below 20-DMA) | **53 / 100** |
 | **LLY** | $1,273.46 | 🔴 `-2.54%` | `69.96` | Bullish (Above 20-DMA) | **47 / 100** |
 | **AMD** | $516.79 | 🟢 `+1.74%` | `26.55` | Bearish (Below 20-DMA) | **46 / 100** |

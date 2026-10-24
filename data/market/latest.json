@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-23T23:56:20.064988+00:00",
-  "formatted_time": "2026-10-23 23:56:20 UTC",
-  "date": "2026-10-23",
-  "market_regime": "Risk-On (Low Volatility)",
-  "vix_level": 0.0,
+  "timestamp": "2026-10-24T23:33:34.324752+00:00",
+  "formatted_time": "2026-10-24 23:33:34 UTC",
+  "date": "2026-10-24",
+  "market_regime": "Neutral / Stable",
+  "vix_level": 19.45,
   "indices": [
     {
       "ticker": "^GSPC",
@@ -32,8 +32,8 @@
     {
       "ticker": "^VIX",
       "name": "CBOE Volatility (VIX)",
-      "price": 0.0,
-      "change_pct": 0.0
+      "price": 19.45,
+      "change_pct": 2.21
     },
     {
       "ticker": "^TNX",
@@ -127,7 +127,7 @@
       "ticker": "AAPL",
       "price": 347.73,
       "day_change_pct": -0.14,
-      "rsi14": 72.33,
+      "rsi14": 72.34,
       "trend_20d": "Bullish (Above 20-DMA)",
       "momentum_score": 60
     },
