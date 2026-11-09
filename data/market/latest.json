@@ -1,215 +1,215 @@
 {
-  "timestamp": "2026-11-09T01:08:45.659691+00:00",
-  "formatted_time": "2026-11-09 01:08:45 UTC",
+  "timestamp": "2026-11-09T23:06:04.484286+00:00",
+  "formatted_time": "2026-11-09 23:06:04 UTC",
   "date": "2026-11-09",
-  "market_regime": "Risk-Off (High Volatility / Defensive)",
-  "vix_level": 25.64,
+  "market_regime": "Neutral / Stable",
+  "vix_level": 19.92,
   "indices": [
     {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 7376.86,
-      "change_pct": 0.31
+      "price": 7549.94,
+      "change_pct": 2.35
     },
     {
       "ticker": "^IXIC",
       "name": "Nasdaq Composite",
-      "price": 24579.43,
-      "change_pct": 1.09
+      "price": 25253.14,
+      "change_pct": 2.74
     },
     {
       "ticker": "^DJI",
       "name": "Dow Jones",
-      "price": 0.0,
-      "change_pct": 0.0
+      "price": 52389.75,
+      "change_pct": 2.15
     },
     {
       "ticker": "^RUT",
       "name": "Russell 2000",
-      "price": 2754.11,
-      "change_pct": 0.89
+      "price": 2840.81,
+      "change_pct": 3.15
     },
     {
       "ticker": "^VIX",
       "name": "CBOE Volatility (VIX)",
-      "price": 25.64,
-      "change_pct": -9.01
+      "price": 19.92,
+      "change_pct": -22.31
     },
     {
       "ticker": "^TNX",
       "name": "US 10-Year Yield",
       "price": 4.86,
-      "change_pct": 0.45
+      "change_pct": 0.1
     }
   ],
   "sectors": [
     {
-      "ticker": "XLK",
-      "sector": "Technology",
-      "price": 164.74,
-      "day_change_pct": 1.45,
-      "month_change_pct": -18.2
-    },
-    {
       "ticker": "XLI",
       "sector": "Industrials",
-      "price": 162.67,
-      "day_change_pct": 0.12,
-      "month_change_pct": -3.08
+      "price": 168.89,
+      "day_change_pct": 3.82,
+      "month_change_pct": -0.15
     },
     {
-      "ticker": "XLE",
-      "sector": "Energy",
-      "price": 61.62,
-      "day_change_pct": -0.02,
-      "month_change_pct": -2.75
+      "ticker": "XLK",
+      "sector": "Technology",
+      "price": 170.88,
+      "day_change_pct": 3.73,
+      "month_change_pct": -12.98
     },
     {
       "ticker": "XLY",
       "sector": "Consumer Discretionary",
-      "price": 117.58,
-      "day_change_pct": -0.05,
-      "month_change_pct": 5.59
+      "price": 121.01,
+      "day_change_pct": 2.92,
+      "month_change_pct": 7.78
     },
     {
       "ticker": "XLV",
       "sector": "Healthcare",
-      "price": 184.8,
-      "day_change_pct": -0.06,
-      "month_change_pct": 9.47
-    },
-    {
-      "ticker": "XLU",
-      "sector": "Utilities",
-      "price": 43.13,
-      "day_change_pct": -0.39,
-      "month_change_pct": 4.81
-    },
-    {
-      "ticker": "XLF",
-      "sector": "Financials",
-      "price": 57.16,
-      "day_change_pct": -0.59,
-      "month_change_pct": 6.34
-    },
-    {
-      "ticker": "XLRE",
-      "sector": "Real Estate",
-      "price": 44.0,
-      "day_change_pct": -0.68,
-      "month_change_pct": 8.45
+      "price": 188.33,
+      "day_change_pct": 1.91,
+      "month_change_pct": 9.5
     },
     {
       "ticker": "XLB",
       "sector": "Materials",
-      "price": 51.95,
-      "day_change_pct": -0.73,
-      "month_change_pct": 6.06
+      "price": 52.94,
+      "day_change_pct": 1.91,
+      "month_change_pct": 7.08
+    },
+    {
+      "ticker": "XLU",
+      "sector": "Utilities",
+      "price": 43.79,
+      "day_change_pct": 1.53,
+      "month_change_pct": 5.19
+    },
+    {
+      "ticker": "XLF",
+      "sector": "Financials",
+      "price": 57.99,
+      "day_change_pct": 1.45,
+      "month_change_pct": 5.34
+    },
+    {
+      "ticker": "XLRE",
+      "sector": "Real Estate",
+      "price": 44.64,
+      "day_change_pct": 1.45,
+      "month_change_pct": 6.49
     },
     {
       "ticker": "XLP",
       "sector": "Consumer Staples",
-      "price": 90.08,
-      "day_change_pct": -1.28,
-      "month_change_pct": 10.26
+      "price": 90.89,
+      "day_change_pct": 0.9,
+      "month_change_pct": 7.68
+    },
+    {
+      "ticker": "XLE",
+      "sector": "Energy",
+      "price": 61.94,
+      "day_change_pct": 0.52,
+      "month_change_pct": -6.17
     }
   ],
   "top_movers": [
     {
       "ticker": "AMD",
-      "price": 449.04,
-      "day_change_pct": 11.04,
-      "rsi14": 38.85,
+      "price": 508.58,
+      "day_change_pct": 13.26,
+      "rsi14": 47.13,
       "trend_20d": "Bearish (Below 20-DMA)",
       "momentum_score": 99
     },
     {
+      "ticker": "AVGO",
+      "price": 319.48,
+      "day_change_pct": 8.78,
+      "rsi14": 45.28,
+      "trend_20d": "Bearish (Below 20-DMA)",
+      "momentum_score": 91
+    },
+    {
+      "ticker": "LLY",
+      "price": 1411.95,
+      "day_change_pct": 4.28,
+      "rsi14": 67.58,
+      "trend_20d": "Bullish (Above 20-DMA)",
+      "momentum_score": 80
+    },
+    {
       "ticker": "TSLA",
-      "price": 358.22,
-      "day_change_pct": 4.23,
-      "rsi14": 46.81,
+      "price": 378.05,
+      "day_change_pct": 5.54,
+      "rsi14": 51.29,
+      "trend_20d": "Bearish (Below 20-DMA)",
+      "momentum_score": 78
+    },
+    {
+      "ticker": "META",
+      "price": 641.37,
+      "day_change_pct": 5.12,
+      "rsi14": 36.95,
       "trend_20d": "Bearish (Below 20-DMA)",
       "momentum_score": 69
     },
     {
-      "ticker": "BRK-B",
-      "price": 570.89,
-      "day_change_pct": -0.25,
-      "rsi14": 73.37,
+      "ticker": "MSFT",
+      "price": 545.18,
+      "day_change_pct": 2.75,
+      "rsi14": 54.81,
       "trend_20d": "Bullish (Above 20-DMA)",
-      "momentum_score": 60
-    },
-    {
-      "ticker": "LLY",
-      "price": 1354.0,
-      "day_change_pct": -0.79,
-      "rsi14": 66.23,
-      "trend_20d": "Bullish (Above 20-DMA)",
-      "momentum_score": 54
-    },
-    {
-      "ticker": "NVDA",
-      "price": 186.64,
-      "day_change_pct": 2.78,
-      "rsi14": 29.63,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 53
-    },
-    {
-      "ticker": "AAPL",
-      "price": 342.37,
-      "day_change_pct": -0.52,
-      "rsi14": 49.59,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 47
+      "momentum_score": 66
     },
     {
       "ticker": "AMZN",
-      "price": 259.3,
-      "day_change_pct": -0.35,
-      "rsi14": 47.69,
+      "price": 266.93,
+      "day_change_pct": 2.94,
+      "rsi14": 52.85,
       "trend_20d": "Bullish (Above 20-DMA)",
-      "momentum_score": 47
+      "momentum_score": 66
+    },
+    {
+      "ticker": "AAPL",
+      "price": 350.69,
+      "day_change_pct": 2.43,
+      "rsi14": 57.49,
+      "trend_20d": "Bullish (Above 20-DMA)",
+      "momentum_score": 65
+    },
+    {
+      "ticker": "BRK-B",
+      "price": 575.25,
+      "day_change_pct": 0.76,
+      "rsi14": 72.29,
+      "trend_20d": "Bullish (Above 20-DMA)",
+      "momentum_score": 64
     },
     {
       "ticker": "JPM",
-      "price": 334.49,
-      "day_change_pct": -0.84,
-      "rsi14": 50.74,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 46
-    },
-    {
-      "ticker": "AVGO",
-      "price": 293.69,
-      "day_change_pct": 0.74,
-      "rsi14": 34.52,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 45
-    },
-    {
-      "ticker": "MSFT",
-      "price": 530.61,
-      "day_change_pct": -0.99,
-      "rsi14": 48.84,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 44
-    },
-    {
-      "ticker": "META",
-      "price": 610.15,
-      "day_change_pct": 0.84,
-      "rsi14": 23.9,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 41
+      "price": 342.08,
+      "day_change_pct": 2.27,
+      "rsi14": 54.84,
+      "trend_20d": "Bullish (Above 20-DMA)",
+      "momentum_score": 63
     },
     {
       "ticker": "GOOGL",
-      "price": 284.78,
-      "day_change_pct": 0.78,
-      "rsi14": 20.26,
+      "price": 288.15,
+      "day_change_pct": 1.18,
+      "rsi14": 23.76,
       "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 39
+      "momentum_score": 42
+    },
+    {
+      "ticker": "NVDA",
+      "price": 178.67,
+      "day_change_pct": -4.27,
+      "rsi14": 26.98,
+      "trend_20d": "Bearish (Below 20-DMA)",
+      "momentum_score": 17
     }
   ]
 }
