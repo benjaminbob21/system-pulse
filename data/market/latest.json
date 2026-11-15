@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-11-14T01:37:56.441855+00:00",
-  "formatted_time": "2026-11-14 01:37:56 UTC",
-  "date": "2026-11-14",
+  "timestamp": "2026-11-15T01:12:54.775619+00:00",
+  "formatted_time": "2026-11-15 01:12:54 UTC",
+  "date": "2026-11-15",
   "market_regime": "Neutral / Stable",
   "vix_level": 19.3,
   "indices": [
@@ -79,6 +79,13 @@
       "month_change_pct": 5.56
     },
     {
+      "ticker": "XLRE",
+      "sector": "Real Estate",
+      "price": 44.37,
+      "day_change_pct": 0.02,
+      "month_change_pct": 6.94
+    },
+    {
       "ticker": "XLB",
       "sector": "Materials",
       "price": 52.23,
@@ -98,13 +105,6 @@
       "price": 119.98,
       "day_change_pct": -0.4,
       "month_change_pct": 7.61
-    },
-    {
-      "ticker": "XLRE",
-      "sector": "Real Estate",
-      "price": 44.36,
-      "day_change_pct": -0.52,
-      "month_change_pct": 6.92
     },
     {
       "ticker": "XLK",
@@ -130,6 +130,14 @@
       "rsi14": 78.74,
       "trend_20d": "Bullish (Above 20-DMA)",
       "momentum_score": 67
+    },
+    {
+      "ticker": "META",
+      "price": 641.69,
+      "day_change_pct": 2.9,
+      "rsi14": 53.31,
+      "trend_20d": "Bullish (Above 20-DMA)",
+      "momentum_score": 66
     },
     {
       "ticker": "JPM",
@@ -162,14 +170,6 @@
       "rsi14": 46.9,
       "trend_20d": "Bearish (Below 20-DMA)",
       "momentum_score": 49
-    },
-    {
-      "ticker": "META",
-      "price": 623.61,
-      "day_change_pct": -0.82,
-      "rsi14": 44.14,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 42
     },
     {
       "ticker": "TSLA",

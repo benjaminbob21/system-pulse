@@ -6,20 +6,20 @@
 
 > **System Pulse** is an automated dual-engine telemetry dashboard. It monitors 24/7 cloud infrastructure health across Oracle Cloud / APIs and generates daily quantitative market sector momentum & factor scores at market close.
 
-*Last Telemetry Refresh: `2026-11-14 01:37:58 UTC`*
+*Last Telemetry Refresh: `2026-11-15 01:12:56 UTC`*
 
 ---
 
 ## 🛰️ 1. Cloud Infrastructure & Service Health
 
-**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `124.18 ms`
+**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `71.7 ms`
 
 | Monitored Service | Target / Endpoint | Status | Response Time |
 | :--- | :--- | :---: | :---: |
-| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `8.09 ms` *(code: 200)* |
-| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `28.12 ms` *(code: 200)* |
-| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `273.54 ms` *(code: 200)* |
-| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `186.96 ms` *(code: 200)* |
+| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `24.53 ms` *(code: 200)* |
+| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `88.57 ms` *(code: 200)* |
+| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `121.53 ms` *(code: 200)* |
+| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `52.16 ms` *(code: 200)* |
 
 ---
 
@@ -45,10 +45,10 @@
 | **Financials** | `XLF` | 🟢 `+0.81%` | `+7.63%` |
 | **Healthcare** | `XLV` | 🟢 `+0.54%` | `+8.56%` |
 | **Utilities** | `XLU` | 🟢 `+0.52%` | `+5.56%` |
+| **Real Estate** | `XLRE` | 🟢 `+0.02%` | `+6.94%` |
 | **Materials** | `XLB` | 🔴 `-0.21%` | `+5.15%` |
 | **Industrials** | `XLI` | 🔴 `-0.39%` | `+1.04%` |
 | **Consumer Discretionary** | `XLY` | 🔴 `-0.40%` | `+7.61%` |
-| **Real Estate** | `XLRE` | 🔴 `-0.52%` | `+6.92%` |
 | **Technology** | `XLK` | 🔴 `-2.01%` | `-10.58%` |
 
 ### 🎯 Top Momentum & Conviction Factor Rankings
@@ -56,11 +56,11 @@
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **LLY** | $1,443.50 | 🟢 `+1.26%` | `75.14` | Bullish (Above 20-DMA) | **68 / 100** |
 | **BRK-B** | $592.94 | 🟢 `+0.53%` | `78.74` | Bullish (Above 20-DMA) | **67 / 100** |
+| **META** | $641.69 | 🟢 `+2.90%` | `53.31` | Bullish (Above 20-DMA) | **66 / 100** |
 | **JPM** | $346.19 | 🟢 `+0.98%` | `59.09` | Bullish (Above 20-DMA) | **59 / 100** |
 | **AAPL** | $356.27 | 🟢 `+0.39%` | `58.68` | Bullish (Above 20-DMA) | **56 / 100** |
 | **AMZN** | $266.66 | 🔴 `-0.29%` | `62.46` | Bullish (Above 20-DMA) | **54 / 100** |
 | **MSFT** | $523.88 | 🟢 `+0.17%` | `46.9` | Bearish (Below 20-DMA) | **49 / 100** |
-| **META** | $623.61 | 🔴 `-0.82%` | `44.14` | Bearish (Below 20-DMA) | **42 / 100** |
 | **TSLA** | $390.22 | 🔴 `-1.82%` | `49.53` | Bullish (Above 20-DMA) | **40 / 100** |
 
 ---
