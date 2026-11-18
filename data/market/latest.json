@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-11-17T21:52:16.149852+00:00",
-  "formatted_time": "2026-11-17 21:52:16 UTC",
-  "date": "2026-11-17",
+  "timestamp": "2026-11-18T03:04:05.865454+00:00",
+  "formatted_time": "2026-11-18 03:04:05 UTC",
+  "date": "2026-11-18",
   "market_regime": "Risk-Off (High Volatility / Defensive)",
   "vix_level": 25.46,
   "indices": [
@@ -20,8 +20,8 @@
     {
       "ticker": "^DJI",
       "name": "Dow Jones",
-      "price": 50759.42,
-      "change_pct": -1.64
+      "price": 0.0,
+      "change_pct": 0.0
     },
     {
       "ticker": "^RUT",
