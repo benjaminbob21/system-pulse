@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-11-19T21:43:18.776057+00:00",
-  "formatted_time": "2026-11-19 21:43:18 UTC",
-  "date": "2026-11-19",
+  "timestamp": "2026-11-20T02:30:26.421106+00:00",
+  "formatted_time": "2026-11-20 02:30:26 UTC",
+  "date": "2026-11-20",
   "market_regime": "Risk-Off (High Volatility / Defensive)",
   "vix_level": 28.44,
   "indices": [
@@ -38,11 +38,18 @@
     {
       "ticker": "^TNX",
       "name": "US 10-Year Yield",
-      "price": 5.05,
-      "change_pct": -0.28
+      "price": 0.0,
+      "change_pct": 0.0
     }
   ],
   "sectors": [
+    {
+      "ticker": "XLRE",
+      "sector": "Real Estate",
+      "price": 43.62,
+      "day_change_pct": 0.07,
+      "month_change_pct": 2.93
+    },
     {
       "ticker": "XLE",
       "sector": "Energy",
@@ -70,13 +77,6 @@
       "price": 55.58,
       "day_change_pct": -1.49,
       "month_change_pct": -0.25
-    },
-    {
-      "ticker": "XLRE",
-      "sector": "Real Estate",
-      "price": 42.88,
-      "day_change_pct": -1.7,
-      "month_change_pct": 1.18
     },
     {
       "ticker": "XLK",
@@ -132,6 +132,14 @@
       "momentum_score": 47
     },
     {
+      "ticker": "META",
+      "price": 616.38,
+      "day_change_pct": -0.4,
+      "rsi14": 47.51,
+      "trend_20d": "Bearish (Below 20-DMA)",
+      "momentum_score": 46
+    },
+    {
       "ticker": "AVGO",
       "price": 346.65,
       "day_change_pct": -2.09,
@@ -150,10 +158,10 @@
     {
       "ticker": "MSFT",
       "price": 498.3,
-      "day_change_pct": -1.97,
-      "rsi14": 42.61,
+      "day_change_pct": -1.78,
+      "rsi14": 42.87,
       "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 36
+      "momentum_score": 37
     },
     {
       "ticker": "AMZN",
@@ -178,14 +186,6 @@
       "rsi14": 38.62,
       "trend_20d": "Bearish (Below 20-DMA)",
       "momentum_score": 32
-    },
-    {
-      "ticker": "META",
-      "price": 596.22,
-      "day_change_pct": -3.27,
-      "rsi14": 44.61,
-      "trend_20d": "Bearish (Below 20-DMA)",
-      "momentum_score": 30
     },
     {
       "ticker": "GOOGL",
