@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-11-22T01:29:33.819326+00:00",
-  "formatted_time": "2026-11-22 01:29:33 UTC",
-  "date": "2026-11-22",
-  "market_regime": "Risk-Off (High Volatility / Defensive)",
-  "vix_level": 35.89,
+  "timestamp": "2026-11-23T01:54:44.524844+00:00",
+  "formatted_time": "2026-11-23 01:54:44 UTC",
+  "date": "2026-11-23",
+  "market_regime": "Risk-On (Low Volatility)",
+  "vix_level": 0.0,
   "indices": [
     {
       "ticker": "^GSPC",
@@ -32,8 +32,8 @@
     {
       "ticker": "^VIX",
       "name": "CBOE Volatility (VIX)",
-      "price": 35.89,
-      "change_pct": 26.2
+      "price": 0.0,
+      "change_pct": 0.0
     },
     {
       "ticker": "^TNX",
