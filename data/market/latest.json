@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-11-23T01:54:44.524844+00:00",
-  "formatted_time": "2026-11-23 01:54:44 UTC",
-  "date": "2026-11-23",
-  "market_regime": "Risk-On (Low Volatility)",
-  "vix_level": 0.0,
+  "timestamp": "2026-11-24T01:07:58.297476+00:00",
+  "formatted_time": "2026-11-24 01:07:58 UTC",
+  "date": "2026-11-24",
+  "market_regime": "Risk-Off (High Volatility / Defensive)",
+  "vix_level": 26.62,
   "indices": [
     {
       "ticker": "^GSPC",
       "name": "S&P 500",
-      "price": 6910.39,
-      "change_pct": -3.7
+      "price": 7237.17,
+      "change_pct": 4.73
     },
     {
       "ticker": "^IXIC",
       "name": "Nasdaq Composite",
-      "price": 22617.73,
-      "change_pct": -5.28
+      "price": 24089.56,
+      "change_pct": 6.51
     },
     {
       "ticker": "^DJI",
       "name": "Dow Jones",
-      "price": 48147.33,
-      "change_pct": -1.93
+      "price": 49595.31,
+      "change_pct": 3.01
     },
     {
       "ticker": "^RUT",
       "name": "Russell 2000",
-      "price": 2581.79,
-      "change_pct": -2.76
+      "price": 2669.66,
+      "change_pct": 3.4
     },
     {
       "ticker": "^VIX",
       "name": "CBOE Volatility (VIX)",
-      "price": 0.0,
-      "change_pct": 0.0
+      "price": 26.62,
+      "change_pct": -25.83
     },
     {
       "ticker": "^TNX",
       "name": "US 10-Year Yield",
-      "price": 4.91,
-      "change_pct": -2.77
+      "price": 4.92,
+      "change_pct": 0.12
     }
   ],
   "sectors": [
@@ -48,70 +48,70 @@
       "sector": "Consumer Staples",
       "price": 90.46,
       "day_change_pct": 0.67,
-      "month_change_pct": 3.85
+      "month_change_pct": 2.84
     },
     {
       "ticker": "XLV",
       "sector": "Healthcare",
       "price": 177.24,
       "day_change_pct": -0.12,
-      "month_change_pct": -0.95
+      "month_change_pct": -1.14
     },
     {
       "ticker": "XLE",
       "sector": "Energy",
       "price": 60.51,
       "day_change_pct": -0.62,
-      "month_change_pct": -11.22
+      "month_change_pct": -13.11
     },
     {
       "ticker": "XLU",
       "sector": "Utilities",
       "price": 42.69,
       "day_change_pct": -0.74,
-      "month_change_pct": 1.64
+      "month_change_pct": 0.33
     },
     {
       "ticker": "XLRE",
       "sector": "Real Estate",
       "price": 42.46,
       "day_change_pct": -0.98,
-      "month_change_pct": 0.95
+      "month_change_pct": -0.79
     },
     {
       "ticker": "XLF",
       "sector": "Financials",
       "price": 54.57,
       "day_change_pct": -1.82,
-      "month_change_pct": -2.62
+      "month_change_pct": -2.59
     },
     {
       "ticker": "XLB",
       "sector": "Materials",
       "price": 48.34,
       "day_change_pct": -2.19,
-      "month_change_pct": -5.81
+      "month_change_pct": -5.92
     },
     {
       "ticker": "XLY",
       "sector": "Consumer Discretionary",
       "price": 112.46,
       "day_change_pct": -2.95,
-      "month_change_pct": -2.66
+      "month_change_pct": -1.58
     },
     {
       "ticker": "XLI",
       "sector": "Industrials",
       "price": 156.37,
       "day_change_pct": -3.09,
-      "month_change_pct": -7.09
+      "month_change_pct": -6.34
     },
     {
       "ticker": "XLK",
       "sector": "Technology",
       "price": 149.01,
       "day_change_pct": -7.27,
-      "month_change_pct": -20.97
+      "month_change_pct": -20.02
     }
   ],
   "top_movers": [
