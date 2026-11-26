@@ -6,26 +6,26 @@
 
 > **System Pulse** is an automated dual-engine telemetry dashboard. It monitors 24/7 cloud infrastructure health across Oracle Cloud / APIs and generates daily quantitative market sector momentum & factor scores at market close.
 
-*Last Telemetry Refresh: `2026-11-26 03:42:38 UTC`*
+*Last Telemetry Refresh: `2026-11-26 22:30:08 UTC`*
 
 ---
 
 ## 🛰️ 1. Cloud Infrastructure & Service Health
 
-**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `80.38 ms`
+**Overall Status:** `🟢 Operational` | **Uptime:** `100.0%` | **Avg Latency:** `28.55 ms`
 
 | Monitored Service | Target / Endpoint | Status | Response Time |
 | :--- | :--- | :---: | :---: |
-| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `30.17 ms` *(code: 200)* |
-| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `97.14 ms` *(code: 200)* |
-| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `157.78 ms` *(code: 200)* |
-| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `36.44 ms` *(code: 200)* |
+| **Oracle Always-Free Production Cluster** | `tcp://cloud-node-01.internal:22` | 🟢 UP | `3.48 ms` *(code: 200)* |
+| **GitHub Core API** | `https://api.github.com/zen` | 🟢 UP | `13.34 ms` *(code: 200)* |
+| **SEC EDGAR API Gateway** | `https://data.sec.gov/submissions/...` | 🟢 UP | `44.9 ms` *(code: 200)* |
+| **PyPI Package Registry** | `https://pypi.org/pypi/requests/json` | 🟢 UP | `52.49 ms` *(code: 200)* |
 
 ---
 
 ## 📈 2. Daily Market Pulse & Sector Momentum
 
-**Macro Regime:** `Risk-Off (High Volatility / Defensive)` | **VIX Volatility:** `28.29`
+**Macro Regime:** `Risk-Off (High Volatility / Defensive)` | **VIX Volatility:** `26.8`
 
 ### 📊 Major Indices
 | Index | Level | 1-Day Change |
@@ -34,7 +34,7 @@
 | **Nasdaq Composite** (`^IXIC`) | $23,585.80 | 🔴 `-0.62%` |
 | **Dow Jones** (`^DJI`) | $50,182.95 | 🟢 `+0.33%` |
 | **Russell 2000** (`^RUT`) | $2,704.06 | 🟢 `+0.71%` |
-| **CBOE Volatility (VIX)** (`^VIX`) | $28.29 | 🟢 `+7.32%` |
+| **CBOE Volatility (VIX)** (`^VIX`) | $26.80 | 🔴 `-5.27%` |
 | **US 10-Year Yield** (`^TNX`) | $4.85 | 🔴 `-1.14%` |
 
 ### 🏢 Sector Rotation Heatmap
